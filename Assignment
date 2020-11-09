@@ -1,0 +1,50 @@
+Design a simple in-memory key value store
+
+
+Code a simple in memory caching library. You should spend no more than 3 hours on the exercise. Final product should include:    
+
+
+A caller facing API that allows others to use your library
+
+Verification that all functional requirements are present
+
+Verification that all functional requirements were met and work
+
+Documentation addressing the performance characteristics and memory usage
+
+
+A design document on any of the individual components and how they interact is optional.
+
+Please address as part of your final work any trade-offs you made amongst the requirements.
+
+
+Requirements:
+
+
+At its heart, our library stores key/value pairs with an optional time based expiration of keys.
+
+The caller of the library should be able to:
+
+
+Put a key/value pair
+
+Put a key/value pair that has an optional expiration value
+
+Retrieve a key/value pair
+
+Delete a key/value pair
+
+Be used within a process that includes multiple threads 
+
+
+Performance targets:
+
+
+Retrieve a key with a 95th percentile time of less than 1 millisecond
+
+Retrieve a key with a 99th percentile time of less than 5 milliseconds
+
+Handle up to 10 million key/value pairs
+
+
+For performance targets, it is acceptable to discuss the various strategies you might attempt in order to hit those targets and what the tradeoffs might be with each approach.
