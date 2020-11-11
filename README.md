@@ -1,4 +1,4 @@
-# Wallaroo Assingment - Cache
+# Designing a Simple Cache
 
 A cache is a hardware/software component that stores data so that future requests for that data can be served faster. Basically, it is a key/value store to access frequently required data. Instead of accessing a database or compute every time, we can store it in a cache for easy retrieval. 
 
